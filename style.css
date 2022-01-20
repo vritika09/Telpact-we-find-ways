@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-1{
+    width: 100%;
+    
+}
+.contact{
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .links img{
+    padding: 10px 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+.contact .phn img{
+    margin: 0px;
+}
+.req a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    align-items: center;
+}
+.section-1 nav .logo img{
+    width: 60%;
+}
+.section-1 nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.section-1 nav ul li{
+    display: block;
+    margin: 5px 10px;
+}
+.section-1 nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.section-1 nav ul li a:hover{
+    color: black;
+    transition: 3s;
+}
+.section-2{
+    width: 100%;
+    display: flex;
+    padding: 70px 25px;
+}
+.section-2 .trusted h3{
+    font-size: 50px;
+}
+.section-2 .trusted .ones{
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.section-2 .trusted .two{
+    color: rgb(151, 148, 148);
+}
+.trusted button{
+    margin: 45px 0px;
+    padding: 8px 20px;
+    background-color: rgb(214, 193, 5);
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px
+}
+
+.section-3{
+    width: 100%; 
+}
+.services{
+    text-align: center;
+}
+.section-3 .services h3, .section-4 .services h3, .section-5 .services h3, .section-6 h3, .section-7 h3 ,.section-8 h3{
+    font-size: 30px;
+}
+hr{
+    width: 10%;
+    margin: 0 auto;
+    border: 2px solid rgb(9, 7, 119);
+   
+}
+.ser-des{
+    width: 30%;
+    display: flex;
+    margin: 20px auto;
+}
+.services-cols{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-column-gap: 5%;
+    margin-top: 25px;
+}
+.one{
+    margin-bottom: 50px;
+    background-color: rgb(229, 226, 226);
+    padding: 25px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 4px 5px 4px rgb(163, 162, 162) ;
+}
+.one h3{
+   text-align: center;
+   margin-bottom: 10px;
+}
+.one p{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.one a{
+    margin: 0px 25px;
+    text-decoration: none;
+    color: rgb(3, 101, 192);
+}
+.section-4{
+    width: 100%;
+   
+    /* background-image: linear-gradient(white,rgb(62, 190, 184)); */
+}
+.section-4 .work-1{
+    width: 50%;
+    background-color: rgb(3, 206, 206);
+    display: flex;
+    margin: 100px 50px 0px 50px;
+    padding: 50px;
+    border-radius: 40px;
+}
+.section-4 .work-2{
+    width: 50%;
+    background-color: rgb(3, 206, 206);
+    display: flex;
+    margin: 50px 50px 50px 0px;
+    padding: 50px;
+    border-radius: 40px;
+    float: right;
+
+}
+.section-4 .work-3{
+    width: 50%;
+    display: flex;
+    background-color: rgb(3, 206, 206);
+    margin: 0px 50px 50px 50px;
+    padding: 50px;
+    border-radius: 40px;
+}
+.section-4 .btn{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-4 button{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.section-5{
+    width: 100%;
+    margin: 50px 0px;
+}
+.section-5 .why-1, .why-2, .why-3{
+    display: flex;
+    margin: 15px 0px;
+    align-items: center;
+}
+.section-5 .why-img img{
+    width: 500px;
+}
+.section-5 .why{
+    margin: 0px 50px;
+}
+.section-5 .why-1-2,.why-2-1, .why-3-2{
+   padding: 80px 100px;
+}
+.section-5 .why-1-2 h3,.why-2-1 h3, .why-3-2 h3{
+    padding: 15px 0px;
+}
+.section-6{
+    background-color: rgb(212, 211, 211);
+    padding: 7% 0%;
+}
+
+.section-6 .industries{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 40px);
+    padding: 50px;
+    grid-column-gap: 10%;
+    grid-row-gap: 20%;
+}
+.section-6 .industries .item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 138, 138);
+}
+
+.section-7{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+}
+
+.section-7 .testi{
+    background-image: url(images/testimonnial1.png);
+    background-repeat: repeat-x;
+    background-size: 70%;
+
+}
+.section-7 .testi .testi-1{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    margin: 250px 0px 50px 0px;
+}
+.section-8{
+    width: 100%;
+    margin-top: 50px;
+    background-image: linear-gradient(white,rgb(3, 206, 206), white);
+}
+.section-8 .news-blog{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-column-gap: 5%;
+
+}
+.section-8 .news-blog .blog{
+    display: flex;
+    width: 100%;
+
+}
+.section-8 .news-blog .b {
+    padding: 10px 5px;
+}
+.section-8 .news-blog .blog{
+    padding: 10px 0px;
+}
+.section-8 .blog-a{
+    margin-bottom: 35px;
+}
+.section-8 .news-blog .news{
+    padding: 10px 80px;
+}
+.section-8 .news-blog .news .news-img{
+    width:90% ;
+    padding: 15px 0px;
+}
+.news-p{
+    padding: 15px 0px;
+}
+.section-8 .news-blog .news button{
+    margin: 50px 0px;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(7, 116, 124);
+    border-radius: 10px;
+    border: 2px solid rgb(7, 116, 124);
+}
+.section-9{
+    width: 100%;
+    display: flex;
+    background-color: rgb(202, 202, 10);
+    height: 50vh;
+    justify-content: center;
+}
+
+.section-9 .sub{
+    margin: 0px 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+}
+.section-9 .sub .subcribe-1{
+    margin: 100px 0px;
+}
+.section-9 .sub .subcribe-1 h4{
+    font-size: 35px;
+}
+.section-9 .sub .subcribe-1 span input{
+    margin: 25px 0px;
+    width: 60%;
+    height: 30%;
+    border-radius: 10px;
+    border: 2px solid rgb(7, 116, 124) ;
+    font-size: 18px;
+}
+.section-9 .sub .subcribe-1 span button{
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(7, 116, 124) ;
+    background-color: rgb(16, 82, 168);
+    color: white;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+}
+.footer .f{
+    display: flex;
+}
+.footer .f .f-logo{
+    width: 50%;   
+}
+.f-service{
+    width: 25%;
+    margin: 80px 0px;
+}
+.f-service ul{
+    list-style-type: none;
+}
+.f-service ul li{
+    padding: 5px 0px;
+}
+.f-service h6 , .f-reach h6{
+    font-size: 16px;
+}
+
+.f-reach{
+    width: 25%;
+    margin: 80px 0px;
+}
+
+.f-reach .f{
+    display: flex;
+    padding: 15px 0px;
+}
+.f-link img{
+    padding: 25px 10px;
+}
+.reach-2{
+    padding: 0px 5px;
+}
+
+#check{
+   display: none;
+}
+
+nav .checkbtn{
+    color: whitesmoke;
+    font-size: 25px;
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+#trusted-img{
+    display: none;
+}
+.recruit-block{
+    display: none;
+}
+.whyus-2{
+    display: none;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:480px) {
+    .contact{
+        display: none;
+    }
+    .section-1 nav{
+        background-color: rgb(233, 230, 230);
+        margin: 0px;  
+        padding: 0px 5px;
+    }
+    .section-1 nav ul{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.849);
+        height: 100vh;
+        left: -100%;
+        transition: all 3s;
+    }
+
+    .section-1 nav ul li{
+        padding: 5px 0px;
+        margin: 20px 0px;
+        text-align: center;
+        display: block;
+    }
+    .section-1 nav ul li a{
+        color: white;
+    }
+
+    .section-1 nav ul li a:hover{
+        color: #ffb320;
+    }
+
+    .section-1 nav a img{
+        float: left;
+    }
+    .section-1 nav #logo{
+        padding-left: 0px;
+    }
+    .section-1 nav .req{
+        display: none;
+    }
+
+    .section-1 nav .checkbtn{
+        display: block;
+        color: black;
+    }
+
+    .section-1 #check:checked ~ul{
+        left: 0px;
+    }
+    .section-2{
+        width: 100%;
+        display: block;
+        padding: 30px 25px;
+    }
+ 
+    .section-2 .trusted h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-2 #trusted-img{
+        display: block;
+        margin: 20px 0px;
+        width: 80vw;
+    }
+    .section-2 .trusted .ones{
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+    .section-2 .trusted .two{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .section-2 .trusted_img img{
+        display: none;
+    }
+    .section-2 button{
+        margin: 5px;
+    }
+    .services h3{
+        font-size: 25px;
+    }
+    .ser-des{
+        width: 80%;
+        display: flex;
+        margin: 20px auto;
+    }
+
+    .ser{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        /* grid-column-gap: 5%; */
+        margin-top: 25px;
+    }
+    .section-3 .one{
+        align-items: center;
+        margin: 15px 25px;
+    }
+    .section-4{
+        margin: 50px 0px;
+
+    }
+    .section-4 .work-1{
+        display: block;
+        width: 80%;
+        padding: 20px;
+        margin: 10px 40px;
+    }
+    .section-4 .work-1 .col-1 img, .recruit-block img, .work-3-1 img{
+        margin-left: 25%;
+    }
+    .section-4 .work-1 .col-2 p{
+        padding: 0px 5px;
+    }
+    .section-4 .work-2{
+        display: block;
+        width: 80%;
+        padding: 20px;
+        margin: 10px 40px;
+        float: left;
+        margin-bottom: 25px;
+    }
+    .section-4 .work-2-2{
+        display: none;
+    }
+    .recruit-block{
+        display: block;
+    }
+    .section-4 .work-3{
+        display: block;
+        width: 80%;
+        padding: 20px;
+        /* margin: 500px 40px  20px 40px; */
+        margin-top: 130%;
+    }
+    .section-4 button{
+        font-size: 16px;
+    }
+    .section-5 .why-1{
+        display: block;
+    }
+    .why-1 .why-1-1 img{
+        width: 50vw;
+        margin-left: 15%;
+    }
+    .why-1 .why-1-2, .why-2 .why-2-1, .why-3 .why-3-2{
+        padding: 0px;
+    }
+    .why-2 .why-2-2{
+        display: none;
+    }
+    .why-2 .whyus-2{
+        display: block;
+    }
+    .why-2, .why-3{
+        display: block;
+    }
+    .why-2 .whyus-2 img , .why-3 .why-3-1 img{
+        width: 50vw;
+        margin: 15px 0px 5px 50px;
+    }
+
+    .section-6 .industries{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 25%);
+        padding: 50px;
+        grid-column-gap: 15%;
+        grid-row-gap: 5%;
+    }
+    .section-6 .industries .item{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(138, 138, 138);
+    }
+    .section-7 .testi .testi-1{
+        width: 20%;
+        align-items: center;
+        text-align: center;
+        margin: 55px 0px 50px 0px;
+    }
+    .section-7 .testi .testi-1 img{
+        width: 20vw;
+    }
+    .section-8 .news-blog{
+        display: block;
+    }
+    .section-8 .news-blog .blog{
+        display: block;
+    }
+    .section-8  .blog-a, .blog-b{
+        text-align: center;
+        margin: 25px 0px;
+    }
+
+    .section-9 .sub{
+        display: block;
+    }
+    .section-9 .sub .subcribe-1{
+        margin: 10px 0px;
+    }
+    .section-9 .sub .subcribe-1 h4{
+        font-size: 18px;
+    }
+    .section-9 .sub .subcribe-2 img{
+        width: 40vw;
+        margin-right: 20%;
+    }
+    .footer .f .f-logo{
+       display: none;
+    }
+    .f-service{
+        margin: 10px 25px;
+        width: 40%;
+    }
+    .f-reach{
+        width: 40%;
+        margin: 10px 0px;
+    }
+    .f-link img{
+        font-size: 14px;
+        padding: 25px 5px;
+    }
+    
+
+
+
+}
